@@ -4,7 +4,6 @@ This project demonstrates a basic **quantum coin flip** using [PennyLane](https:
 
 By applying a **Hadamard gate** to a single qubit, we place it into a quantum superposition of |0⟩ and |1⟩ — representing heads and tails. The measurement of the qubit simulates the outcome of a fair coin toss.
 
----
 
 ## 🔬 Objective
 
@@ -12,7 +11,6 @@ By applying a **Hadamard gate** to a single qubit, we place it into a quantum su
 - Measure the output over 1000 shots.
 - Visualize the distribution of outcomes.
 
----
 
 ## 📦 Tools & Libraries
 
@@ -21,7 +19,6 @@ By applying a **Hadamard gate** to a single qubit, we place it into a quantum su
 - `NumPy` — for numerical processing.
 - `collections.Counter` — to count measurement results.
 
----
 
 ## 📈 Results
 
@@ -33,10 +30,11 @@ By applying a **Hadamard gate** to a single qubit, we place it into a quantum su
   <img src="quantum_coin_plot.png" width="400">
 </p>
 
-> *Note: Due to quantum randomness, results may slightly vary each time you run the simulation.*
+### 🖼️ Simulation Result
 
----
+![Quantum Coin Flip Plot](quantum_coin_plot.png)
 
+This plot shows the outcome distribution from the quantum coin flip simulation using the Hadamard gate on a single qubit.
 ## 🧠 What I Learned
 
 - How to define and run a quantum circuit using `qml.qnode`.
@@ -44,7 +42,6 @@ By applying a **Hadamard gate** to a single qubit, we place it into a quantum su
 - Basics of quantum measurement and probabilistic outcomes.
 - Visualization of quantum measurement data.
 
----
 
 ## 🚀 How to Run
 
