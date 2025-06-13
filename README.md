@@ -44,8 +44,3 @@ The plot shows the outcome distribution from the quantum coin flip simulation us
 ```bash
 # Install PennyLane
 pip install pennylane
-
-
- ## Author
-
-Jibril Abdullahi
