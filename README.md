@@ -1,20 +1,53 @@
-# Quantum Coin Flip Simulation 🪙
+# 🪙 Quantum Coin Flip Simulation using PennyLane
 
-This project simulates a **quantum coin flip** using [PennyLane](https://pennylane.ai/), a quantum machine learning library. It demonstrates how a single qubit in superposition can be used to generate probabilistic outcomes—similar to flipping a fair coin.
+This project demonstrates a basic **quantum coin flip** using [PennyLane](https://pennylane.ai/), a Python library for quantum machine learning and differentiable programming.
 
-## 🧪 How It Works
+By applying a **Hadamard gate** to a single qubit, we place it into a quantum superposition of |0⟩ and |1⟩ — representing heads and tails. The measurement of the qubit simulates the outcome of a fair coin toss.
 
-The simulation performs the following steps:
+---
 
-1. Creates a quantum device with 1 qubit and 1000 shots.
-2. Applies a Hadamard gate to create a superposition (|0⟩ + |1⟩) / √2.
-3. Measures the qubit using the Pauli-Z observable.
-4. Maps +1 → 0 (heads) and -1 → 1 (tails).
-5. Displays the outcome frequencies in a bar chart.
+## 🔬 Objective
 
-## 📦 Requirements
+- Simulate a quantum coin flip using a 1-qubit circuit.
+- Measure the output over 1000 shots.
+- Visualize the distribution of outcomes.
 
-Make sure to install the required Python libraries:
+---
+
+## 📦 Tools & Libraries
+
+- `PennyLane` — for building and simulating the quantum circuit.
+- `Matplotlib` — for visualizing the outcomes.
+- `NumPy` — for numerical processing.
+- `collections.Counter` — to count measurement results.
+
+---
+
+## 📈 Results
+
+- The outcomes are measured in the Z-basis, resulting in values of +1 and -1.
+- These are mapped to `0 = heads` and `1 = tails`.
+- A histogram plot shows the frequency of each result across 1000 trials.
+
+<p align="center">
+  <img src="quantum_coin_plot.png" width="400">
+</p>
+
+> *Note: Due to quantum randomness, results may slightly vary each time you run the simulation.*
+
+---
+
+## 🧠 What I Learned
+
+- How to define and run a quantum circuit using `qml.qnode`.
+- The role of **Hadamard gates** in generating superpositions.
+- Basics of quantum measurement and probabilistic outcomes.
+- Visualization of quantum measurement data.
+
+---
+
+## 🚀 How to Run
 
 ```bash
-pip install pennylane matplotlib
+# Install PennyLane
+pip install pennylane
