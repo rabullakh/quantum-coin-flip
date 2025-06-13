@@ -1,4 +1,4 @@
-# 🪙 Quantum Coin Flip Simulation using PennyLane
+## Quantum Coin Flip Simulation using PennyLane
 
 This project demonstrates a basic **quantum coin flip** using [PennyLane](https://pennylane.ai/), a Python library for quantum machine learning and differentiable programming.
 
@@ -44,3 +44,8 @@ The plot shows the outcome distribution from the quantum coin flip simulation us
 ```bash
 # Install PennyLane
 pip install pennylane
+
+
+ ## Author
+
+Jibril Abdullahi
