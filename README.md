@@ -25,16 +25,11 @@ By applying a **Hadamard gate** to a single qubit, we place it into a quantum su
 - The outcomes are measured in the Z-basis, resulting in values of +1 and -1.
 - These are mapped to `0 = heads` and `1 = tails`.
 - A histogram plot shows the frequency of each result across 1000 trials.
+- 
+Quantum Coin Flip Outcomes (0=heads, 1=tails): {0: 468, 1: 532}
+The plot shows the outcome distribution from the quantum coin flip simulation using the Hadamard gate on a single qubit.
 
-<p align="center">
-  <img src="quantum_coin_plot.png" width="400">
-</p>
 
-### 🖼️ Simulation Result
-
-![Quantum Coin Flip Plot](quantum_coin_plot.png)
-
-This plot shows the outcome distribution from the quantum coin flip simulation using the Hadamard gate on a single qubit.
 ## 🧠 What I Learned
 
 - How to define and run a quantum circuit using `qml.qnode`.
