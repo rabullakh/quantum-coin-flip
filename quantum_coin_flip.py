@@ -31,7 +31,4 @@ plt.title("Quantum Coin Flip Simulation (PennyLane)")
 plt.xlabel("Outcome")
 plt.ylabel("Frequency")
 plt.grid(True)
-
-# Save the figure before showing
-plt.savefig("quantum_coin_plot.png")
 plt.show()
