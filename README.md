@@ -26,7 +26,7 @@ By applying a **Hadamard gate** to a single qubit, we place it into a quantum su
 - These are mapped to `0 = heads` and `1 = tails`.
 - A histogram plot shows the frequency of each result across 1000 trials.
 
-Quantum Coin Flip Outcomes (0=heads, 1=tails): {0: 468, 1: 532}
+Quantum Coin Flip Outcomes (0=heads, 1=tails): {0: 468, 1: 532}.
 The plot shows the outcome distribution from the quantum coin flip simulation using the Hadamard gate on a single qubit.
 
 
